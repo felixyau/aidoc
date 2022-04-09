@@ -1,6 +1,6 @@
 const Questions = {
   q1: {
-    q: "Are you stupid?",
+    q: "Qeustion 1?",
     options: [
       {
         label: "Yes",
@@ -10,6 +10,21 @@ const Questions = {
         label: "Yes",
         value: "yes",
       },
+      
+    ],
+  },
+  q2: {
+    q: "Why did you press yes?",
+    options: [
+      {
+        label: "Idk",
+        value: "idk",
+      },
+      {
+        label: "Freak you",
+        value: "freakYou",
+      },
+      
     ],
   },
 };

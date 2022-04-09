@@ -8,6 +8,10 @@ module.exports = {
         colors: {
           primary: "hsl(11,100%,57%)"
         },
+        translate: {
+          'n-screen': '-100vh',
+          'screen': '100vh',
+        },
         screens: {
           'sm': '640px',
           // => @media (min-width: 640px) { ... }
