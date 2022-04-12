@@ -6,7 +6,8 @@ module.exports = {
     theme: {
       extend: {
         colors: {
-          primary: "hsl(11,100%,57%)"
+          primary: "hsl(11,100%,57%)",
+          secondary: "hsl(17,100%,92%)"
         },
         translate: {
           'n-screen': '-100vh',

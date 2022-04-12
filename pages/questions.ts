@@ -1,6 +1,6 @@
-const Questions = {
-  q1: {
-    q: "Qeustion 1?",
+const Questions = [
+  {
+    q: "Are you dumb?",
     options: [
       {
         label: "Yes",
@@ -13,7 +13,7 @@ const Questions = {
       
     ],
   },
-  q2: {
+  {
     q: "Why did you press yes?",
     options: [
       {
@@ -24,9 +24,8 @@ const Questions = {
         label: "Freak you",
         value: "freakYou",
       },
-      
     ],
-  },
-};
+  }
+];
 
 export default Questions;

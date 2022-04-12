@@ -8,13 +8,14 @@ type Option = {
 
 type Props = {
   options: Array<Option>;
+  nextStep: (e:any)=>void
 };
 
-const ButtonGroup = ({ options }: Props) => {
+const ButtonGroup = ({ options, nextStep }: Props) => {
   return (
     <>
       {options.map((option) => (
-        <div key={uuid()} className="mb-4 relative rounded-lg border-2 border-gray-300 p-4">
+        <div key={uuid()} onClick={nextStep} className="w-3/12 mb-4 rounded-xl bg-white p-4 shadow-md transition duration-100 active:scale-75 active:shadow-lg">
             {option.label}
         </div>
       ))}
